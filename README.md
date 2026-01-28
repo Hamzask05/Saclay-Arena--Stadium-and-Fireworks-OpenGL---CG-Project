@@ -1,4 +1,4 @@
-# 🏟️ Saclay Arena – Stadium & Fireworks
+# 🏟️ Saclay Arena – Stadium & Fireworks Party !
 
 ### OpenGL Computer Graphics Project
 
