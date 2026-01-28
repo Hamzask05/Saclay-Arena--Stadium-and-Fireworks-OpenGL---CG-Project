@@ -107,5 +107,5 @@ The final stadium model contains **over 100 meshes**, making it an excellent str
 This project allowed us to combine **creativity, technical skills, and real-time graphics** into a single cohesive experience. It strengthened our understanding of the complete 3D graphics pipeline, from modeling to real-time rendering, while celebrating both **sport and university identity**.
 
 ---
-
+Made by : BOUASSAL Safae, ESSARHIR Hiba, SERRAJ Mehdi and SKALI Hamza.
 📌 *If you like the project, feel free to leave a ⭐ on the repository!*
