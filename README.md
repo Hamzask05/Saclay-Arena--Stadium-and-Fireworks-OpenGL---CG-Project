@@ -84,7 +84,7 @@ To import complex 3D models efficiently, we used **Assimp (Open Asset Import Lib
 
 ### Import Pipeline Progression
 
-1. Simple model: 🍋 *a lemon*
+1. We have started with a imple model: 🍋 *a lemon* (so we can learn)
 2. Textured football
 3. Polytech mascot
 4. Full stadium with all components
