@@ -23,9 +23,9 @@ namespace fs = std::filesystem;
 #include <cmath>
 #include <algorithm>
 
-// ============================================================
+// 
 // CAMERA
-// ============================================================
+// 
 glm::vec3 cameraPos   = glm::vec3(0.0f, 15.0f, 90.0f);
 glm::vec3 cameraFront = glm::vec3(0.0f, 0.0f, -1.0f);
 glm::vec3 cameraUp    = glm::vec3(0.0f, 1.0f,  0.0f);
@@ -36,9 +36,9 @@ bool firstMouse = true;
 float speed = 50.0f;
 float sensitivity = 0.1f;
 
-// ============================================================
-// STRUCTS
-// ============================================================
+
+// STRUCTS // trouvé sur github
+
 struct Mesh {
     GLuint VAO;
     int vertexCount;
@@ -64,9 +64,8 @@ struct FireworkLight {
     float Intensity;
 };
 
-// ============================================================
 // GLOBALS
-// ============================================================
+
 const int MAX_PARTICLES = 30000;
 std::vector<Particle> particles;
 std::deque<FireworkLight> activeLights;
@@ -75,7 +74,7 @@ std::vector<glm::vec3> pendingExplosions;
 unsigned int particleVAO, particleVBO;
 float fireworkTimer = 0.0f;
 
-// PAUSE & FULLSCREEN GLOBALS
+// fonctionnalité pause & fullscren 
 bool isPaused = false;
 bool lastSpaceState = false;
 float simulationTime = 0.0f;
@@ -85,7 +84,7 @@ bool isFullscreen = false;
 bool lastFState = false;
 int savedWinX, savedWinY, savedWinW, savedWinH;
 
-// 1-3-2-1 FORMATION (Only Strikers used now)
+// 1-3-2-1 FORMATION (que les Strikers  mtnt après modif) 
 glm::vec3 startPositions[7] = {
     glm::vec3(48.0f, 0.0f, 0.0f),
     glm::vec3(35.0f, 0.0f, -15.0f),
@@ -93,7 +92,7 @@ glm::vec3 startPositions[7] = {
     glm::vec3(35.0f, 0.0f, 15.0f),
     glm::vec3(20.0f, 0.0f, -10.0f),
     glm::vec3(20.0f, 0.0f, 10.0f),
-    glm::vec3(12.0f, 0.0f, 0.0f)    // 6: STRIKER (Passer)
+    glm::vec3(12.0f, 0.0f, 0.0f)    // 6: attanquant (celui qui fait la passe)
 };
 
 glm::vec3 currentPosRed[7];
@@ -117,8 +116,7 @@ glm::vec3 floodLights[2] = {
     glm::vec3(0.0f, 80.0f, -60.0f)  // Center Left (High up)
 };
 
-// ============================================================
-// HELPER FUNCTIONS
+// HELPER FUNCTIONS // trouvé sur github
 // ============================================================
 
 void spawnExplosion(glm::vec3 origin) {
@@ -640,3 +638,4 @@ int main() {
     glfwTerminate();
     return 0;
 }
+
