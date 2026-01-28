@@ -37,8 +37,8 @@ The **central element** of the project is the **Polytech Paris-Saclay mascot (th
 * Modeled from scratch in Blender
 * Used as a base model for **players and the referee**
 * Required careful handling of **organic shapes** to preserve its **cartoon-like appearance**
+  <img width="816" height="343" alt="image" src="https://github.com/user-attachments/assets/25515927-14b2-4598-aad2-fcfa13ab8461" />
 
-This choice allowed us to unify the visual identity of the scene while strongly embedding the school’s branding into the project.
 
 ---
 
@@ -50,6 +50,8 @@ Texturing played a key role in personalizing and enhancing realism.
 
 * The **school logo** was mapped directly onto the **center of the pitch**
 * **Université Paris-Saclay flags** were placed on advertising panels around the field
+  <img width="816" height="340" alt="image" src="https://github.com/user-attachments/assets/c87fb7f9-a855-4611-9126-c592769ce581" />
+
 
 ### Materials & Colors
 
